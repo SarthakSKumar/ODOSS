@@ -1,0 +1,925 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_if" id="f;0KN+scMlx!5xvbM|EA" x="-1390" y="-610">
+    <mutation elseif="9" else="1"></mutation>
+    <value name="IF0">
+      <block type="logic_operation" id="c}@jgiItqzGrBT!QsOB:">
+        <field name="OP">AND</field>
+        <value name="A">
+          <block type="logic_operation" id="VsC9:ZMMZyLU89mM?`ou">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_operation" id="vYl;u@;PN4lvUi6(XXSj">
+                <field name="OP">AND</field>
+                <value name="A">
+                  <block type="logic_compare" id="XcM^{Xu*CG[4[ACDemW$">
+                    <field name="OP">LTE</field>
+                    <value name="A">
+                      <block type="dreamkit_ping_sensor" id="(I7jlV;Bee7,!j|g6{19">
+                        <field name="ping_sensor_id">1</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="eA`=kDQP5x-83V_BHAT.">
+                        <field name="NUM">10</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="logic_compare" id="EM2:FH,7KWgRo`9#?ey|">
+                    <field name="OP">GT</field>
+                    <value name="A">
+                      <block type="dreamkit_ping_sensor" id="~4~gK-*v}z4^1G]*}RYj">
+                        <field name="ping_sensor_id">1</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="3*O}eC,C[(3kRK.k67|l">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_operation" id="4_I#Qy7hu^H/myJhq6B_">
+                <field name="OP">AND</field>
+                <value name="A">
+                  <block type="logic_compare" id="0KH7IU-[9S4}K`Gqi]kY">
+                    <field name="OP">LTE</field>
+                    <value name="A">
+                      <block type="dreamkit_ping_sensor" id="qxy(P?)R2Hu[`hZGo6Jh">
+                        <field name="ping_sensor_id">2</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="%_6@nTHI=U$Di:tA6qMq">
+                        <field name="NUM">10</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="logic_compare" id="FD%`{eX,4^ErbCC)G$@/">
+                    <field name="OP">GT</field>
+                    <value name="A">
+                      <block type="dreamkit_ping_sensor" id="0`i~rq/]bw9k%`LlUO1*">
+                        <field name="ping_sensor_id">2</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="9K6ADlxR7V*[lgGSGCKx">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="B">
+          <block type="logic_operation" id="SS?xc:_FAt6J!#v-9lmc">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_operation" id="d*r13AX)-S5Vs!%qVqTo">
+                <field name="OP">AND</field>
+                <value name="A">
+                  <block type="logic_compare" id="kl5n.RRKD0ECQRnO}Iq7">
+                    <field name="OP">LTE</field>
+                    <value name="A">
+                      <block type="dreamkit_ping_sensor" id="~Jdl84U%xr$IHhV47:|^">
+                        <field name="ping_sensor_id">12</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="p~HTY_N6u0!;:T(.tViC">
+                        <field name="NUM">10</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="logic_compare" id="8c[=mGQlgqxQ0Sc{$EF0">
+                    <field name="OP">GT</field>
+                    <value name="A">
+                      <block type="dreamkit_ping_sensor" id="b|k;}Vg:|FiB3s2tn5?f">
+                        <field name="ping_sensor_id">12</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="#asvgkqQb,|]8/I3,)t+">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_operation" id="++/E`.ASV}/E57wP`Ux^">
+                <field name="OP">AND</field>
+                <value name="A">
+                  <block type="logic_compare" id="jmo%~Ub:aL0wykN69pVk">
+                    <field name="OP">LTE</field>
+                    <value name="A">
+                      <block type="dreamkit_ping_sensor" id="$@;]OieYs?N1YiEt]`?O">
+                        <field name="ping_sensor_id">0</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="a7)fF^BJ)|9wftIdw-b6">
+                        <field name="NUM">10</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="logic_compare" id="8fD`Ml`HWC42XT~O9Z;d">
+                    <field name="OP">GT</field>
+                    <value name="A">
+                      <block type="dreamkit_ping_sensor" id="PGau}o?+SdeGkFqb@IE$">
+                        <field name="ping_sensor_id">0</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="Ll)jUy/u.)Q,5A{qf8:M">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO0">
+      <block type="dreamkit_motor" id="*q4:r#|:wWXAUx[9B.4]">
+        <field name="motor_id">11</field>
+        <field name="motor_direction">motor_stop</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="B^y_n~mZuSY0TaT!:.}d">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="oO.mg!hLn;DFUYd(lZ;d">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="dreamkit_buzzer" id="s)mkYMMssshf8iH7qHy9">
+            <field name="buzzer_id">2</field>
+            <field name="buzzer_switch">1</field>
+            <next>
+              <block type="dreamkit_led" id="tVHkQ^%P:;4TSS6Hhdl~">
+                <field name="led_id">1</field>
+                <field name="led_switch">1</field>
+                <value name="led_set_color">
+                  <shadow type="led_set_color" id="_Reppo1,=nOFAS]4=kR;">
+                    <field name="color">#ff0000</field>
+                  </shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="IF1">
+      <block type="logic_operation" id="W1hm@3vUL1?d#)^I_o@v">
+        <field name="OP">AND</field>
+        <value name="A">
+          <block type="logic_operation" id="VN|Rv8BE_^h;_)0|$|oZ">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="J,/O5Ks[SPX21{{~.){F">
+                <field name="OP">LTE</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="43H9#`oFrU8FZV*T9EtX">
+                    <field name="ping_sensor_id">2</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id=".|1tb#dH)3O_RL.6OC30">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id=")b(Fir9x%/udF|^G(f]H">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="p^!,k)PQ9m#+lInVPi,J">
+                    <field name="ping_sensor_id">2</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id=".a51*{WGru~CKPK8]NyP">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="B">
+          <block type="logic_operation" id="C^_%5$3eNFp5}OCT:/#d">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="S8C4HG*?J4{_(V2):zV:">
+                <field name="OP">LTE</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="B5J1ay=sIom/)9ilnQDV">
+                    <field name="ping_sensor_id">12</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="w#.!q;a]l[1(g:fW/Z{P">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="Byrom=nOM97b:s9DG^t!">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="S`Zfs38eN4/+3-?Zt,RE">
+                    <field name="ping_sensor_id">12</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="^(2I@XAf/Bnud@EO!1c$">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO1">
+      <block type="dreamkit_motor" id="nCxicM{BSpa(*h6jzh5~">
+        <field name="motor_id">11</field>
+        <field name="motor_direction">motor_right_arc</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="[.q#Z;=*jD^5OK8f-`gY">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="SwuBT;]d|^$]r,Yt.Zo?">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="dreamkit_delay" id="qQjs23RjoS8$yGKpJT1S">
+            <field name="delay_value">0.5</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="IF2">
+      <block type="logic_operation" id="gTuE0Plrr%7mo}YiJ.n^">
+        <field name="OP">AND</field>
+        <value name="A">
+          <block type="logic_operation" id=",uBCu4p3h89AZB%%.hN~">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="orPaL$qwa{9,?/;zPVNn">
+                <field name="OP">LTE</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="D2!i#usOq$6kn9(eMv+T">
+                    <field name="ping_sensor_id">1</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="/7gU-yj*Oy@=@j`;M}.u">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="GJkLKL_|E#vG+QVxcAHo">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="12bdhW@w8qLJ,TqtF#Fr">
+                    <field name="ping_sensor_id">1</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="QaEG7flzl/s{oIjL=+2e">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="B">
+          <block type="logic_operation" id=")8U6H+,jIW?w[*Dzo~$E">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="wk!ymJRlhhyB3w2@H(ce">
+                <field name="OP">LTE</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="Dq!:nzLkOx(k^T^D@vP^">
+                    <field name="ping_sensor_id">12</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="l;~-uV:zdo8rV.K,Mhu2">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="8JQ/+ik#!K__2.Hm~4s,">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="-OOr]4xj=JRHm+]ubZ^$">
+                    <field name="ping_sensor_id">12</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="DeB!iV@ZbGU2wqav,sd]">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO2">
+      <block type="dreamkit_motor" id="a7f/iF1mCZ.LBKp30b~A">
+        <field name="motor_id">11</field>
+        <field name="motor_direction">motor_left_arc</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="1$S`D`aY4^asYVPeQ_G0">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="$ELZA`+u=?GGg6t~B4bT">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="dreamkit_delay" id="$]8]BOED#^2z?i9/OJgX">
+            <field name="delay_value">0.5</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="IF3">
+      <block type="logic_operation" id="STz1NP$(orMl8^sOba(/">
+        <field name="OP">AND</field>
+        <value name="A">
+          <block type="logic_compare" id="0oexkl$q1uL@SC4CH+O:">
+            <field name="OP">LTE</field>
+            <value name="A">
+              <block type="dreamkit_ping_sensor" id="C|29:w%k}1@[d.!_wz0-">
+                <field name="ping_sensor_id">12</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="HRH@_[Of$%hoh8Rx.]6X">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="B">
+          <block type="logic_compare" id="PD5svd+ol*zpfL^sPyvp">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="dreamkit_ping_sensor" id="9t7,w+Z+sowe]l1Na?t!">
+                <field name="ping_sensor_id">12</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="d{3vzaHJ?EZU._p%T`$n">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO3">
+      <block type="dreamkit_motor" id="J{abytD;`!{7Ns{,@5xA">
+        <field name="motor_id">11</field>
+        <field name="motor_direction">motor_backward</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="pTq(4l#%}[PgAyEW?-oT">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="%[KvrPQxx|UKS|g{agYg">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="dreamkit_delay" id="vG6KsrOqZiz0,wO/9W@$">
+            <field name="delay_value">0.5</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="IF4">
+      <block type="logic_operation" id="Y#lP^X-d8_CAT{c4-Z=W">
+        <field name="OP">AND</field>
+        <value name="A">
+          <block type="logic_compare" id="9oe=b0H,d:J?[L]:$P[D">
+            <field name="OP">LTE</field>
+            <value name="A">
+              <block type="dreamkit_ping_sensor" id="p|9GpmzS1v=QKxM8x/3*">
+                <field name="ping_sensor_id">0</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="9[qzB[aJ{=7cEFYf/%a8">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="B">
+          <block type="logic_compare" id="yI,QsSTJ]{A#xZIh5JTy">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="dreamkit_ping_sensor" id="fQ$noJTgyP^x71^(b{cw">
+                <field name="ping_sensor_id">0</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="gnq13/r$:r:L|(zkND?m">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO4">
+      <block type="dreamkit_motor" id="r]?%SN8WGugS/:Tj+iYp">
+        <field name="motor_id">11</field>
+        <field name="motor_direction">motor_forward</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="NV{e~a6LySbEbSMB`M;I">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="HJjqXBzQ72M0v^f-:(L(">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="IF5">
+      <block type="logic_operation" id="}VaNmM]HOieO3sr0YkK$">
+        <field name="OP">AND</field>
+        <value name="A">
+          <block type="logic_compare" id="tVvfOCylO?t4)u23olPj">
+            <field name="OP">LTE</field>
+            <value name="A">
+              <block type="dreamkit_ping_sensor" id="]^K9fIxjPovzf!`h2})+">
+                <field name="ping_sensor_id">2</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="0gJY!1Q+4)%DkPYsUTok">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="B">
+          <block type="logic_compare" id="-64pT+5jl!3gkLQ|4ZiD">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="dreamkit_ping_sensor" id="W6rJ_T(I%OmSAio=q4T!">
+                <field name="ping_sensor_id">2</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="xnOvxI,+*bUkfVLm-_Tf">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO5">
+      <block type="dreamkit_motor" id=";PALPt!eK(,leRWjc^n.">
+        <field name="motor_id">11</field>
+        <field name="motor_direction">motor_right_arc</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="zvmmGRG+PGa]MlkvGsC!">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="70R%8paqjZ?c.?0*uu[I">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="dreamkit_delay" id="R2$)b+8,,;+02_df.I*t">
+            <field name="delay_value">0.5</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="IF6">
+      <block type="logic_operation" id="GBIAUP+4:|ZbtBz[sC9*">
+        <field name="OP">AND</field>
+        <value name="A">
+          <block type="logic_compare" id="^`tO$#JjYquwA|XX}E7#">
+            <field name="OP">LTE</field>
+            <value name="A">
+              <block type="dreamkit_ping_sensor" id="GC[uQQbHQ)qf!J|HDWs/">
+                <field name="ping_sensor_id">1</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="wWEQd)/6;1tT_|1ucf,^">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="B">
+          <block type="logic_compare" id="0$_9Kq,V6IY1q9#.;/%%">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="dreamkit_ping_sensor" id="2:_sUywO9uDUBl;Oe3X(">
+                <field name="ping_sensor_id">1</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="K_V%(uhChQAKrpUzCE0y">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO6">
+      <block type="dreamkit_motor" id="gHk(BNQKJ[xno=(:3@8W">
+        <field name="motor_id">11</field>
+        <field name="motor_direction">motor_left_arc</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="k3W@k:Ksw]BOv0Q3EK9q">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="z.fv7f-q6P^wJrWY!MG7">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="dreamkit_delay" id="B#w::S)-bK!K`t*5WoOT">
+            <field name="delay_value">0.5</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="IF7">
+      <block type="logic_operation" id="gFL5j;DT{zcM=7Dk^(AD">
+        <field name="OP">AND</field>
+        <value name="A">
+          <block type="logic_operation" id="9]EdxqGWgHh~/2UuKkuY">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="oC)]:HWcTgH/~3Pne4[N">
+                <field name="OP">LTE</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="TN!}$moQEeu)U0[,9HZP">
+                    <field name="ping_sensor_id">12</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="=%BD47R#W:{6EdBWHw25">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="l?rn1@@*Uw0qcrkv%O;I">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="G4gex!pa2NNsE8;VHDjw">
+                    <field name="ping_sensor_id">12</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="Q@~wF.s#HYSluMhwz#x2">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="B">
+          <block type="logic_operation" id="=YQogm@]gML0#5Fxlu`F">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="G}RR`XW[K6R(2jlvO63~">
+                <field name="OP">LTE</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id=":YR2.CL)~bafcy%DyG+H">
+                    <field name="ping_sensor_id">0</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="uLAz(i!J}*]LyTt,K;pB">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="@Kkf$qM}=_ux(]5}n0;E">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="bk);VvckSd!OvV.a|o|S">
+                    <field name="ping_sensor_id">0</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="g!f)0rh[vEHps5oid=0H">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO7">
+      <block type="dreamkit_motor" id="CnS7^sJvi*LB#*4v|*2A">
+        <field name="motor_id">11</field>
+        <field name="motor_direction">motor_left_arc</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="{U$;JClRlTPz;z(.5Qpj">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="U?:N,G*^Ud08mU*pR3aw">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="dreamkit_delay" id="C$]JJ?`8{9VvEm@Sca3o">
+            <field name="delay_value">0.5</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="IF8">
+      <block type="logic_operation" id="v.%?XrP[*(0#LS6b#B6~">
+        <field name="OP">AND</field>
+        <value name="A">
+          <block type="logic_operation" id="0aUAS.QA~2k%M]4kfJxT">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="9$XU`j[sp[fAio{v/vpl">
+                <field name="OP">LTE</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="1?5Ykm%^upX-c+Gf88;(">
+                    <field name="ping_sensor_id">2</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="YE[l+C8=W6n--Lb!WGtt">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="Q$gRYQ3^wWBI[Lo3h(9?">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="iE9IYlvWpC*tUhBk{KcV">
+                    <field name="ping_sensor_id">2</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="^2tB~*k=,LZ!@c=N(:xy">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="B">
+          <block type="logic_operation" id=")(y7C1F9?%w[i5WDA}MS">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="/|ZA%jUA%Z3.glKqPDUK">
+                <field name="OP">LTE</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="[OBlqeRcKrzyG`Jr=Y$a">
+                    <field name="ping_sensor_id">0</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="NN!;#b:+GUc#wR-3U=+8">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="Ff6l4b=W]yfcL9rGoy%z">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="(_;*5Ph_+t@^=buD*Cqf">
+                    <field name="ping_sensor_id">0</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id=";=q$^+p}DShZTZ27mg?.">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO8">
+      <block type="dreamkit_motor" id="D(pL3iLX^,a,}][m*H6#">
+        <field name="motor_id">11</field>
+        <field name="motor_direction">motor_right_arc</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="udk9*DRz{Wu${FiXcq?e">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="3|1?_gS(X=)T^|5B`1lL">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="dreamkit_delay" id="l/;OX7NHHkJ,;!T{/NGp">
+            <field name="delay_value">0.5</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="IF9">
+      <block type="logic_operation" id="rCGdeNtw6uWztCO*KH?(">
+        <field name="OP">AND</field>
+        <value name="A">
+          <block type="logic_operation" id=")-Y(vsOHk~LZwYa^L6aV">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="EE6-#JkY7yI(+MAH9EeV">
+                <field name="OP">LTE</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="1y`6c*]fo@RBF,i$ZRI8">
+                    <field name="ping_sensor_id">1</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="8?-a6_I3Z)*9(k9k{*pi">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="J2nPfU^3K1pnI7oP;$t`">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="Rg[,0V4yE0sYQkTSZOe/">
+                    <field name="ping_sensor_id">1</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="F2~qB:a#!8acy-Iq@T}T">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="B">
+          <block type="logic_operation" id="2+UybPKKZYSgmGzV0dvl">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="}Q-BYnhrGKnj~cj!.38R">
+                <field name="OP">LTE</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="]Dl$OW+ynZZw0YZ4vG%C">
+                    <field name="ping_sensor_id">0</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="b`tz-0YCE0:RVEbl@bTF">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="UH9t]V4pa2DO4`YD%/FF">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="dreamkit_ping_sensor" id="*5g/B-qq]RWpsrogBv5?">
+                    <field name="ping_sensor_id">0</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="f:R,~r)ZTM|h]6,J-J?q">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO9">
+      <block type="dreamkit_motor" id=":S*}3(^hDu4=yl[%(L?D">
+        <field name="motor_id">11</field>
+        <field name="motor_direction">motor_left_arc</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="Ot.jw;+.Pw`1G)B.|cd_">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="Dy_u[L/gZ2aR-T_U]US!">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="dreamkit_delay" id="gUMOu,{J{B,y46|dFE;5">
+            <field name="delay_value">0.5</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <statement name="ELSE">
+      <block type="dreamkit_motor" id="si~8`i9~6nbo_9,5z8vK">
+        <field name="motor_id">11</field>
+        <field name="motor_direction">motor_forward</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="jo5)}Zpu}Qp[YtR~!@#u">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="=^lbcT7,au`d49uQa_#m">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="dreamkit_led" id="3}I}KVsYRFx`xQoH~s19">
+            <field name="led_id">1</field>
+            <field name="led_switch">1</field>
+            <value name="led_set_color">
+              <shadow type="led_set_color" id="vutrvo,lH]*P(=6:|X^0">
+                <field name="color">#33cc00</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="dreamkit_buzzer" id="*c#cHYw`#uM)J7IQqKbe">
+                <field name="buzzer_id">2</field>
+                <field name="buzzer_switch">0</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
